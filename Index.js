@@ -22,5 +22,5 @@ app.get('*', (req, res)=> {
  */
 
 app.listen(port,()=>{
-    console.log(`Listening at http://localhost:${port}`)
+    console.log(`Listening at http://web-server-express-railway-production.up.railway.app:${port}`)
 })
